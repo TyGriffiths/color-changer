@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="col-md-offset-3 col-lg-offset-3 col-xs-12 col-sm-12 col-md-6 col-lg-6 border-buttons">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="makeButtons">
+
+		</div>
+	</div>
+
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div class="dropdown col-xs-offset-4 col-sm-offset-4 col-md-offset-4 col-lg-offset-5 col-xs-3 col-sm-2 col-md-2 col-lg-1">
+		  <select class="btn btn-default color-items" id="dropdownItems">
+		  	<option value="" disabled selected>Select Color</option>
+		  </select>
+		</div>
+		<div class="col-xs-3 col-sm-3 col-md-1 col-lg-1">
+			<button class="btn btn-default add-item" onClick="addColor()">Add New</button>
+		</div>
+	</div>
+
+	<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div class="col-xs-offset-3 col-sm-offset-3 col-md-offset-4 col-lg-offset-4 col-xs-4 col-sm-4 col-md-3 col-lg-3">
+			<button class="remove-colors btn btn-default col-xs-2 col-sm-2 col-md-2 col-lg-2" onclick="removeColor()">Remove Current</button>
+		</div>
+	</div>
+
+	<div class="col-xs-offset-4 col-sm-offset-4 col-md-offset-4 col-lg-offset-5 col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" id="colorCircle"></div>
+	</div>
+
+
+<script type="text/javascript" src="color-changer.js"></script>
+
+</body>
+</html> 

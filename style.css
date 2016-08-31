@@ -1,0 +1,35 @@
+.top-buttons {
+	margin: 20px;
+	width: 100px;
+}
+.border-buttons {
+	border: solid;
+	border-color: black;
+	border-width: 2px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#dropdownItems {
+	margin-left: -54%;
+}
+.color-items {
+	height: 2.499em;
+	width: 110px;
+}
+.add-item {
+	width: 110px;
+	margin-left: -10%;
+}
+.remove-colors {
+	width: 300px;
+	margin: 20px 20px 20px 45px; 
+}
+#colorCircle {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border-width: 3px;
+	border-color: #000;
+	border: solid;
+	margin: 20px 20px 20px -1%;
+}
